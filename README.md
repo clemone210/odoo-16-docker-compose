@@ -120,10 +120,10 @@ server {
 
 # docker-compose.yml
 
-* odoo:13.0
-* postgres:11
+* odoo:16.0 (latest)
+* postgres:15.2 (latest)
 
-# Odoo 13 screenshots
+# Odoo screenshots
 
 ![odoo-13-welcome-docker](screenshots/odoo-13-welcome-screenshot.png)
 
