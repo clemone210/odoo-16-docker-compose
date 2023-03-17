@@ -40,7 +40,7 @@ Start the container:
 docker-compose up
 ```
 
-* Then open `localhost:10013` to access Odoo 13.0. If you want to start the server with a different port, change **10013** to another value in **docker-compose.yml**:
+* Then open `localhost:10013` to access Odoo 16.0. If you want to start the server with a different port, change **10013** to another value in **docker-compose.yml**:
 
 ```
 ports:
