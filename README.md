@@ -1,13 +1,13 @@
 # Quick install
 
-Installing Odoo 13 with one command.
+Installing Odoo 16 with one command.
 
 (Supports multiple Odoo instances on one server)
 
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run:
 
 ``` bash
-curl -s https://raw.githubusercontent.com/minhng92/odoo-13-docker-compose/master/run.sh | sudo bash -s odoo-one 10013 20013
+curl -s https://raw.githubusercontent.com/clemone210/odoo-16-docker-compose/master/run.sh | sudo bash -s odoo-one 10013 20013
 ```
 
 to set up first Odoo instance @ `localhost:10013` (default master password: `minhng.info`)
@@ -15,7 +15,7 @@ to set up first Odoo instance @ `localhost:10013` (default master password: `min
 and
 
 ``` bash
-curl -s https://raw.githubusercontent.com/minhng92/odoo-13-docker-compose/master/run.sh | sudo bash -s odoo-two 11013 21013
+curl -s https://raw.githubusercontent.com/clemone210/odoo-16-docker-compose/master/run.sh | sudo bash -s odoo-two 11013 21013
 ```
 
 to set up another Odoo instance @ `localhost:11013` (default master password: `minhng.info`)
@@ -56,7 +56,7 @@ docker-compose up -d
 **If you get the permission issue**, change the folder permission to make sure that the container is able to access the directory:
 
 ``` sh
-$ git clone https://github.com/minhng92/odoo-13-docker-compose
+$ git clone https://github.com/clemone210/odoo-16-docker-compose
 $ sudo chmod -R 777 addons
 $ sudo chmod -R 777 etc
 $ mkdir -p postgresql
